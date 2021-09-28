@@ -1,0 +1,65 @@
+.certificate-parent {
+  height: 94.7vh;
+  background-color: #fef2ef;
+  border: 10px solid #867dc6;
+  width: 90%;
+}
+
+.bg-col {
+  background-image: url(./Assets/side.png);
+  background-size: cover;
+}
+
+.certificate-parent h2 {
+  color: #f25e8d;
+  font-size: 90px;
+  font-weight: bolder;
+}
+
+.certificate-row,
+.certificate-col {
+  margin: 0;
+  padding: 0;
+}
+
+.certificate-col:nth-child(2) {
+  padding-left: 40px;
+}
+
+.certificate-col img {
+  position: absolute;
+  top: 60px;
+  right: 200px;
+  height: 100px;
+}
+
+.certificate-col h6 {
+  color: #988fcb;
+  margin-top: 24px;
+  font-size: 28px;
+  word-spacing: 6px;
+  margin-bottom: 36px;
+}
+
+.certificate-col p {
+  font-size: 24px;
+  color: #988fcb;
+  font-weight: 500;
+}
+
+.certificate-col h3 {
+  color: #f25e8d;
+  font-size: 36px;
+  margin-bottom: 36px;
+  font-weight: bold;
+}
+
+.dark-text {
+  color: #867cc0 !important;
+}
+
+.date-h {
+  color: #f25e8d !important;
+  margin-bottom: 4px !important;
+  font-weight: bold;
+}
